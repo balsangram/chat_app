@@ -1,0 +1,145 @@
+.joinPage{
+  background-color: rgb(142, 218, 218);
+  margin: 10% auto;
+  width: 30vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5% 2%;
+  border-radius: 15px;
+}
+.meanHeading{
+  text-align: center;
+  text-decoration: underline;
+  padding: 15px 10px;
+}
+.entryRoomNameinput{
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 8px;
+  margin: 2%;
+  outline-style: none;
+  border-bottom: solid;
+}
+.entryButton{
+  width: 40%;
+  border: none;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-top: 4%;
+  cursor: pointer;
+}
+.entryButton:hover{
+  /* border-bottom: solid; */
+  background-color: rgb(12, 77, 111);
+  color: aliceblue;
+  border-bottom: none;
+}
+
+/* ------------------------------------------ */
+
+.roomPage{
+  height: 100vh;
+}
+.chat-header{
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  position: fixed;
+  background-color: rgb(235, 238, 238);
+  width: 100%;
+  z-index: 2;
+}
+/* ==== */
+.chat-body{
+  background-color: rgb(255, 255, 255);
+  padding: 9vh 0;
+}
+.chat-inner{
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  border-radius: 20px;
+}
+.messaage-content{
+  padding: 15px 30px;
+}
+#you .messagesInChart{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(5, 35, 125);
+  color: rgb(255, 255, 255);
+  /* border-radius: 25px 0 25px 25px ; */
+  margin: 10px;
+  float: right;
+  border-radius: 5px;
+}
+#you .message-meta{
+  display: flex;
+  font-size: 11px;
+  margin-bottom: -40px;
+  margin-right: 5px;
+}
+#other .messagesInChart{
+  display: flex;
+  align-items: center;
+  background-color: rgb(228, 228, 228);
+  /* border-radius: 0 25px 25px 25px ; */
+  margin: 10px;
+  float: left;
+  border-radius: 5px;
+}
+#other .message-meta{
+  display: flex;
+  font-size: 11px;
+  margin-bottom: -40px;
+  margin-right: 5px;
+}
+/* ==== */
+
+.chat-footer{
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  height: 10vh;
+  /* width: 90%; */
+  justify-content: center;
+  align-items: center;
+  padding: 0 2%;
+  justify-content: space-between;
+  background-color: rgb(228, 228, 228);
+}
+.sendMessageInput{
+  /* padding: 10px; */
+  width: 100%;
+  outline-style: none;
+  border: none;
+  height: 7vh;
+  border-radius: 25px;
+  padding: 1% 2%;
+  background-color: rgb(255, 255, 255);
+}
+.sendMessageButton{
+  width: 7rem;
+  border: none;
+  background-color: rgb(228, 228, 228);
+  height: 7vh;
+  transition: all 0.3s;
+  cursor: pointer;
+  /* opacity: 0.1; */
+}
+
+
+.scroll-container {
+  height: 100%;
+  overflow-y: auto;
+}
+/* .btn{
+  height: 40rem;
+  width: 40rem;
+  background: pink;
+} */
