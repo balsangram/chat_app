@@ -26,7 +26,7 @@ function Messages({messageList, username}) {
               </div>
               <div className="message-meta">
                 <p>{messageContent.time}</p>
-                <p>{` ${messageContent.author}`}</p>
+                <p className='space'>{messageContent.author}</p>
               </div>
             </div>
           </div>

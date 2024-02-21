@@ -138,8 +138,7 @@
   height: 100%;
   overflow-y: auto;
 }
-/* .btn{
-  height: 40rem;
-  width: 40rem;
-  background: pink;
-} */
+
+.space{
+  margin-left: 10px;
+}
