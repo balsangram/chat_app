@@ -3,7 +3,7 @@ import './App.css';
 import io from "socket.io-client";
 import Chat from './Chat';
 
-const socket = io.connect("ws://localhost:8000");
+const socket = io.connect("wss://localhost:8000");
 
 function App() {
   const [username, setUsername] = useState("");
