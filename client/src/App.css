@@ -142,3 +142,45 @@
 .space{
   margin-left: 10px;
 }
+
+/* ------------------------------------------ */
+
+@media screen and (max-width: 1200px) {
+  .joinPage{
+    width: 60vw;
+    margin-top: 15%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .joinPage{
+    width: 60vw;
+    margin-top: 15%;
+    height: 60vh;
+  }
+  .entryRoomNameinput{
+    height: 5vh;
+    margin: -34px 0;
+  }
+  .entryButton{
+    height: 5vh;
+    margin: -40px 0;
+  }
+}
+@media screen and (max-width: 520px) {
+  .joinPage{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 20vh 0;
+    border-radius: 0;
+  }
+  .meanHeading{
+    padding-top: 10vh;
+  }
+  .entryRoomNameinput{
+    margin: -10px;
+  }
+  .entryButton{
+    margin-top: 0;
+  }
+}
