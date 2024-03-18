@@ -169,7 +169,7 @@
 @media screen and (max-width: 520px) {
   .joinPage{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     margin: 0;
     padding: 20vh 0;
     border-radius: 0;
@@ -182,5 +182,8 @@
   }
   .entryButton{
     margin-top: 0;
+  }
+  .roomPage{
+    height: 90vh;
   }
 }
